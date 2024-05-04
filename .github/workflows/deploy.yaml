@@ -38,6 +38,4 @@ jobs:
           docker push alvin1979/zomato:latest
         env:
           DOCKER_CLI_ACI: 1
-      - name: Image scan
-        run: trivy image alvin1979/zomato:latest > trivyimage.txt
 
